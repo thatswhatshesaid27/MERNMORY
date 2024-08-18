@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(54, 64, 68);
+    background-image: url('./images/old-vintage-camera-old-books-wooden-background-old-vintage-holiday-concept.jpg');
+    background-size: cover; /* Adjusts the size of the background image */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the background from repeating */
+}
