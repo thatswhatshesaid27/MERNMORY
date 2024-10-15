@@ -27,6 +27,20 @@ Before you begin, ensure you have the following installed:
 - **Node.js**: [Download Node.js](https://nodejs.org/en/)
 - **MongoDB**: Ensure MongoDB is installed and running locally or use MongoDB Atlas.
 
+.
+├── client               # React front-end
+│   ├── public           # Public assets
+│   └── src              # Source files
+│       └── components   # React components
+│       └── redux        # Redux store setup
+├── server               # Express back-end
+│   ├── controllers      # Request handlers
+│   ├── models           # MongoDB schemas
+│   ├── routes           # API routes
+├── package.json         # Project configurations
+└── .gitignore           # Ignored files and directories
+
+
 ### Installation & Execution
 
  **Clone the Repository**:
@@ -41,18 +55,7 @@ Before you begin, ensure you have the following installed:
    npm run start - Server
 
 
-.
-├── client               # React front-end
-│   ├── public           # Public assets
-│   └── src              # Source files
-│       └── components   # React components
-│       └── redux        # Redux store setup
-├── server               # Express back-end
-│   ├── controllers      # Request handlers
-│   ├── models           # MongoDB schemas
-│   ├── routes           # API routes
-├── package.json         # Project configurations
-└── .gitignore           # Ignored files and directories
+
 
 
 
